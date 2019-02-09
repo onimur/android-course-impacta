@@ -20,6 +20,7 @@ import com.example.admin.examples.lab01.design.pattern.Permission;
 import com.example.admin.examples.lab02.app.controller.MegaSenaActivity;
 import com.example.admin.examples.lab03.app.controller.GorjetaActivity;
 import com.example.admin.examples.lab04.app.controller.IntentActivity;
+import com.example.admin.examples.lab05.app.controller.CPFActivity;
 
 public class MainActivity extends MainUtilitiesActivity {
 
@@ -41,6 +42,8 @@ public class MainActivity extends MainUtilitiesActivity {
         setOnClickActivityAction(R.id.lab01_bt_intent, IntentActivity.class);
 
         setToastOnClickAction(R.id.lab01_bt_cpf);
+        setOnClickActivityAction(R.id.lab01_bt_cpf, CPFActivity.class);
+
         setToastOnClickAction(R.id.lab01_bt_cep);
         setToastOnClickAction(R.id.lab01_bt_game01);
         setToastOnClickAction(R.id.lab01_bt_gps);

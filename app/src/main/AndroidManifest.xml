@@ -63,6 +63,7 @@
             android:name=".lab04.app.controller.IntentActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
+        <activity android:name=".lab05.app.controller.CPFActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"

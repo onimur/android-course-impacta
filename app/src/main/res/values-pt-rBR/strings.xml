@@ -14,7 +14,7 @@
 <resources>
 
     <string name="app_name">Exemplos</string>
-    <string name="titleApp">Aplicativo</string>
+    <string name="titleApp">Exemplos</string>
     <string name="lab01_toast_clicado">%s clicado</string>
     <string name="lab01_tv_labs">L\na\nb\ns</string>
     <string name="lab01_tv_laboratorios">Laboratórios</string>
@@ -49,4 +49,10 @@
     <string name="lab04_toast_imagem_cancelada">Imagem cancelada</string>
     <string name="lab04_bt_video_capturar">Vídeo</string>
     <string name="lab04_toast_video_cancelada">Vídeo cancelado</string>
+    <string name="lab05_bt_validar">Validar</string>
+    <string name="cpf_nulo">CPF Nulo!</string>
+    <string name="cpf_vazio">CPF vazio!</string>
+    <string name="cpf_11">CPF não contêm 11 dígitos</string>
+    <string name="cpf_invalido">CPF inválido!</string>
+    <string name="doc_valido">Documento válido!</string>
 </resources>

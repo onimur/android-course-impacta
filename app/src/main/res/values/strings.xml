@@ -11,5 +11,10 @@
   -->
 
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Example</string>
+    <string name="cpf_nulo">Null CPF!</string>
+    <string name="cpf_vazio">Empty CPF!</string>
+    <string name="cpf_11">CPF doesn\'t contain 11 digits</string>
+    <string name="cpf_invalido">Invalid CPF!</string>
+    <string name="doc_valido">Valid Document!</string>
 </resources>

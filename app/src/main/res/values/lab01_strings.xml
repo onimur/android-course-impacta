@@ -13,11 +13,11 @@
 
 <resources>
 
-    <string name="titleApp" translatable="false">Examples</string>
+    <string name="titleApp">Examples</string>
     <string name="lab01_toast_clicado">%s clicked</string>
     <string name="lab01_tv_labs">L\na\nb\ns</string>
     <string name="lab01_tv_laboratorios">Laboratories</string>
-    <string name="lab01_bt_megasena">Sena</string>
+    <string name="lab01_bt_megasena">Mega Sena</string>
     <string name="lab01_bt_gorjeta">Gratuity</string>
     <string name="lab01_bt_intent">Camera</string>
     <string name="lab01_bt_cpf">CPF Validator</string>
