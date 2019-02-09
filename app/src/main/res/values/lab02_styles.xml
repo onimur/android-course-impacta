@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Created by Murillo Comino on 09/02/19 15:39
+  ~  * Github: github.com/MurilloComino
+  ~  * StackOverFlow: pt.stackoverflow.com/users/128573
+  ~  * Email: murillo_comino@hotmail.com
+  ~  *
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 13/10/18 19:50
+  ~  */
+  -->
+
+<resources>
+
+    <style name="AppTheme.Lab02.Title.Vertical.Top" parent="AppTheme">
+        <item name="android:textSize">50sp</item>
+        <item name="android:layout_width">80sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">top|center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="AppTheme.Lab02.Title.Vertical.Bottom" parent="AppTheme">
+        <item name="android:textSize">50sp</item>
+        <item name="android:layout_width">80sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+    </style>
+</resources>

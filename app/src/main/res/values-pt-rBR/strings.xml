@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Created by Murillo Comino on 09/02/19 15:39
+  ~  * Github: github.com/MurilloComino
+  ~  * StackOverFlow: pt.stackoverflow.com/users/128573
+  ~  * Email: murillo_comino@hotmail.com
+  ~  *
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 09/02/19 14:19
+  ~  */
+  -->
+
+<resources>
+
+    <string name="app_name">Exemplos</string>
+    <string name="titleApp">Aplicativo</string>
+    <string name="lab01_toast_clicado">%s clicado</string>
+    <string name="lab01_tv_labs">L\na\nb\ns</string>
+    <string name="lab01_tv_laboratorios">Laboratórios</string>
+    <string name="lab01_bt_megasena">Mega Sena</string>
+    <string name="lab01_bt_gorjeta">Gorjeta</string>
+    <string name="lab01_bt_intent">Câmera</string>
+    <string name="lab01_bt_cpf">Validador CPF</string>
+    <string name="lab01_bt_game01">Jogo da Velha</string>
+    <string name="lab01_bt_gps">Me localize</string>
+    <string name="lab01_bt_sqlite">Notas</string>
+    <string name="lab01_bt_cep">Buscar CEP</string>
+    <string name="lab01_bt_game02">Jogo com Bola</string>
+    <string name="lab01_bt_sms">Mensagens SMS</string>
+    <string name="lab01_bt_camera">Câmera</string>
+    <string name="lab01_bt_game03">Jogo do canhão</string>
+    <string name="lab01_bt_share_preferences">Configurações</string>
+
+    <string name="lab02_tv_jogos">Jogos</string>
+    <string name="lab02_bt_sortear">Sortear</string>
+    <string name="lab02_toast_sorteio_min">Mínimo de %s sorteio</string>
+    <string name="lab02_toast_sorteio_max">Máximo de %s sorteios</string>
+    <string name="clipboard"> Texto Copiado </string>
+
+    <string name="lab03_tv_gorjeta">Gorjeta</string>
+    <string name="lab03_tv_conta">Conta: </string>
+    <string name="lab03_tv_total">Total</string>
+    <string name="lab03_tv_def">Defina: </string>
+    <string name="lab03_tv_valor">Valor</string>
+    <string name="lab03_copy">Texto Copiado</string>
+
+    <string name="lab04_bt_imagem_capturar">Imagem</string>
+    <string name="lab04_toast_imagem_cancelada">Imagem cancelada</string>
+    <string name="lab04_bt_video_capturar">Vídeo</string>
+    <string name="lab04_toast_video_cancelada">Vídeo cancelado</string>
+</resources>

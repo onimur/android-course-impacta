@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Created by Murillo Comino on 09/02/19 15:39
+  ~  * Github: github.com/MurilloComino
+  ~  * StackOverFlow: pt.stackoverflow.com/users/128573
+  ~  * Email: murillo_comino@hotmail.com
+  ~  *
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 13/10/18 19:28
+  ~  */
+  -->
+
+<resources>
+    <integer name="lab02_sb_sorteio_min">1</integer>
+    <integer name="lab02_sb_sorteio">10</integer>
+    <integer name="lab02_sb_sorteio_max">100</integer>
+    <color name="lab02_jogo">#0000FF</color>
+    <dimen name="lab2_jogo">30sp</dimen>
+    <dimen name="lab2_jogo_altura">50dp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Created by Murillo Comino on 09/02/19 15:39
+  ~  * Github: github.com/MurilloComino
+  ~  * StackOverFlow: pt.stackoverflow.com/users/128573
+  ~  * Email: murillo_comino@hotmail.com
+  ~  *
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 09/02/19 14:19
+  ~  */
+  -->
+
+<resources>
+    <string name="lab03_et_0" translatable="false">0.00</string>
+    <string name="lab03_tv_gorjeta">Gratuity</string>
+    <string name="lab03_tv_conta">Account: </string>
+    <string name="lab03_tv_percent" translatable="false">%s%%</string>
+    <string name="lab03_tv_percent_1" translatable="false">10%</string>
+    <string name="lab03_tv_percent_2" translatable="false">15%</string>
+    <string name="lab03_tv_percent_3" translatable="false">20%</string>
+    <string name="lab03_tv_percent_def" translatable="false">40%</string>
+    <string name="lab03_tv_total">Total</string>
+    <string name="lab03_tv_def">Define: </string>
+    <string name="lab03_tv_valor">Amount</string>
+    <string name="lab03_copy">Copy Text</string>
+
+
+</resources>

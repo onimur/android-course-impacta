@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Created by Murillo Comino on 09/02/19 15:39
+  ~  * Github: github.com/MurilloComino
+  ~  * StackOverFlow: pt.stackoverflow.com/users/128573
+  ~  * Email: murillo_comino@hotmail.com
+  ~  *
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 25/10/18 22:45
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        style="@style/AppTheme.Lab01.Title"
+        android:text="@string/lab01_tv_laboratorios"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/lab01_bt_megasena"
+                style="@style/AppTheme.Lab01.Button.Green"
+                android:text="@string/lab01_bt_megasena" />
+
+            <Button
+                android:id="@+id/lab01_bt_gorjeta"
+                style="@style/AppTheme.Lab01.Button.Green"
+                android:text="@string/lab01_bt_gorjeta" />
+
+            <Button
+                android:id="@+id/lab01_bt_intent"
+                style="@style/AppTheme.Lab01.Button.Green"
+                android:text="@string/lab01_bt_intent" />
+
+            <Button
+                android:id="@+id/lab01_bt_cpf"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_cpf" />
+
+            <Button
+                android:id="@+id/lab01_bt_cep"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_cep" />
+
+            <Button
+                android:id="@+id/lab01_bt_game01"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_game01" />
+
+            <Button
+                android:id="@+id/lab01_bt_gps"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_gps" />
+
+            <Button
+                android:id="@+id/lab01_bt_sqlite"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_sqlite" />
+            <Button
+                android:id="@+id/lab01_bt_game02"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_game02" />
+
+            <Button
+                android:id="@+id/lab01_bt_service"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_service" />
+
+            <Button
+                android:id="@+id/lab01_bt_bluetooth"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_bluetooth" />
+            <Button
+                android:id="@+id/lab01_bt_sms"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_sms" />
+            <Button
+                android:id="@+id/lab01_bt_camera"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_camera" />
+            <Button
+                android:id="@+id/lab01_bt_game03"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_game03" />
+            <Button
+                android:id="@+id/lab01_bt_share_preferences"
+                style="@style/AppTheme.Lab01.Button.Blue"
+                android:text="@string/lab01_bt_share_preferences" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

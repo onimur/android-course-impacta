@@ -1,0 +1,15 @@
+<!--
+  ~ /*
+  ~  * Created by Murillo Comino on 09/02/19 15:39
+  ~  * Github: github.com/MurilloComino
+  ~  * StackOverFlow: pt.stackoverflow.com/users/128573
+  ~  * Email: murillo_comino@hotmail.com
+  ~  *
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 23/10/18 21:08
+  ~  */
+  -->
+
+<resources>
+    <string name="app_name">My Application</string>
+</resources>

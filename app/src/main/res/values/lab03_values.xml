@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Created by Murillo Comino on 09/02/19 15:39
+  ~  * Github: github.com/MurilloComino
+  ~  * StackOverFlow: pt.stackoverflow.com/users/128573
+  ~  * Email: murillo_comino@hotmail.com
+  ~  *
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 25/10/18 20:47
+  ~  */
+  -->
+
+<resources>
+    <dimen name="lab03_margin">3dp</dimen>
+    <integer name="lab03_percent_1">10</integer>
+    <integer name="lab03_percent_2">15</integer>
+    <integer name="lab03_percent_3">20</integer>
+    <integer name="lab03_percent_def">40</integer>
+    <dimen name="lab03_textSize">20sp</dimen>
+</resources>

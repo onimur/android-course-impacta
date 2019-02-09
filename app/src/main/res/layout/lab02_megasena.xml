@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Created by Murillo Comino on 09/02/19 15:39
+  ~  * Github: github.com/MurilloComino
+  ~  * StackOverFlow: pt.stackoverflow.com/users/128573
+  ~  * Email: murillo_comino@hotmail.com
+  ~  *
+  ~  * Copyright (c) 2019 . All rights reserved.
+  ~  * Last modified 25/10/18 20:55
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        style="@style/AppTheme.Lab01.Title"
+        android:layout_marginBottom="20dp"
+        android:text="@string/lab01_bt_megasena" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lab02_tv_jogos"
+            style="@style/AppTheme.Lab01.Label"
+            android:text="@string/lab02_tv_jogos"
+            android:textSize="@dimen/lab03_textSize"/>
+
+        <TextView
+            android:id="@+id/lab02_tv_sorteios"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/lab02_sb_sorteio"
+            android:textSize="@dimen/lab03_textSize"/>
+
+        <SeekBar
+            android:id="@+id/lab02_sb_sorteios"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:max="@integer/lab02_sb_sorteio_max"
+            android:progress="@integer/lab02_sb_sorteio" />
+
+        <Button
+            android:id="@+id/lab02_bt_sortear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/lab02_bt_sortear"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
