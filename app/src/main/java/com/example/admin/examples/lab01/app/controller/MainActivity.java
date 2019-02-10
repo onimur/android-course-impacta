@@ -21,6 +21,7 @@ import com.example.admin.examples.lab02.app.controller.MegaSenaActivity;
 import com.example.admin.examples.lab03.app.controller.GorjetaActivity;
 import com.example.admin.examples.lab04.app.controller.IntentActivity;
 import com.example.admin.examples.lab05.app.controller.CPFActivity;
+import com.example.admin.examples.lab06.app.controller.JogoVelhaActivity;
 
 public class MainActivity extends MainUtilitiesActivity {
 
@@ -45,7 +46,10 @@ public class MainActivity extends MainUtilitiesActivity {
         setOnClickActivityAction(R.id.lab01_bt_cpf, CPFActivity.class);
 
         setToastOnClickAction(R.id.lab01_bt_cep);
+
         setToastOnClickAction(R.id.lab01_bt_game01);
+        setOnClickActivityAction(R.id.lab01_bt_game01, JogoVelhaActivity.class);
+
         setToastOnClickAction(R.id.lab01_bt_gps);
         setToastOnClickAction(R.id.lab01_bt_sqlite);
         setToastOnClickAction(R.id.lab01_bt_game02);

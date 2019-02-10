@@ -55,4 +55,12 @@
     <string name="cpf_11">CPF não contêm 11 dígitos</string>
     <string name="cpf_invalido">CPF inválido!</string>
     <string name="doc_valido">Documento válido!</string>
+    <string name="player_1_0">Jogador 1: 0</string>
+    <string name="player_2_0">Jogador 2: 0</string>
+    <string name="reset">resetar</string>
+    <string name="player_1">Jogador 1:</string>
+    <string name="player_2">Jogador 2:</string>
+    <string name="player_1_vence">Jogador 1 vence!</string>
+    <string name="player_2_vence">Jogador 2 vence!</string>
+    <string name="draw">Empate!</string>
 </resources>

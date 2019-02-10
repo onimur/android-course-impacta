@@ -64,6 +64,7 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity android:name=".lab05.app.controller.CPFActivity" />
+        <activity android:name=".lab06.app.controller.JogoVelhaActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"

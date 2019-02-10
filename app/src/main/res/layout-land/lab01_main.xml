@@ -69,7 +69,7 @@
 
             <Button
                 android:id="@+id/lab01_bt_game01"
-                style="@style/AppTheme.Lab01.Button.Blue"
+                style="@style/AppTheme.Lab01.Button.Green"
                 android:text="@string/lab01_bt_game01" />
 
             <Button

@@ -11,10 +11,71 @@
   -->
 
 <resources>
+    <string name="titleApp">Examples</string>
+    <string name="lab01_toast_clicado">%s clicked</string>
+    <string name="lab01_tv_labs">L\na\nb\ns</string>
+    <string name="lab01_tv_laboratorios">Laboratories</string>
+    <string name="lab01_bt_megasena">Mega Sena</string>
+    <string name="lab01_bt_gorjeta">Gratuity</string>
+    <string name="lab01_bt_intent">Camera</string>
+    <string name="lab01_bt_cpf">CPF Validator</string>
+    <string name="lab01_bt_game01">Tic-tac-toe</string>
+    <string name="lab01_bt_gps">Locate me</string>
+    <string name="lab01_bt_sqlite">Notes</string>
+    <string name="lab01_bt_cep">Search zip code</string>
+    <string name="lab01_bt_game02">Ball game</string>
+    <string name="lab01_bt_service" translatable="false">Music Player</string>
+    <string name="lab01_bt_bluetooth" translatable="false">Chat Blue</string>
+    <string name="lab01_bt_sms">SMS Messages</string>
+    <string name="lab01_bt_camera">Camera</string>
+    <string name="lab01_bt_game03">Cannon Game</string>
+    <string name="lab01_bt_share_preferences">Settings</string>
+
+    <string name="lab02_tv_mega" translatable="false">M\ne\ng\na</string>
+    <string name="lab02_tv_sena" translatable="false">S\ne\nn\na</string>
+    <string name="lab02_tv_jogo" translatable="false">00 00 00 00 00 00</string>
+    <string name="lab02_tv_jogos">Games</string>
+    <string name="lab02_sb_sorteio" translatable="false">10</string>
+    <string name="lab02_bt_sortear">Raffle</string>
+    <string name="lab02_toast_sorteio_min">Minimum of draw de %s </string>
+    <string name="lab02_toast_sorteio_max">Maximum of draw %s </string>
+    <string name="clipboard"> Copy Text </string>
+
+    <string name="lab03_et_0" translatable="false">0.00</string>
+    <string name="lab03_tv_gorjeta">Gratuity</string>
+    <string name="lab03_tv_conta">Account: </string>
+    <string name="lab03_tv_percent" translatable="false">%s%%</string>
+    <string name="lab03_tv_percent_1" translatable="false">10%</string>
+    <string name="lab03_tv_percent_2" translatable="false">15%</string>
+    <string name="lab03_tv_percent_3" translatable="false">20%</string>
+    <string name="lab03_tv_percent_def" translatable="false">40%</string>
+    <string name="lab03_tv_total">Total</string>
+    <string name="lab03_tv_def">Define: </string>
+    <string name="lab03_tv_valor">Amount</string>
+    <string name="lab03_copy">Copy Text</string>
+
+    <string name="lab04_bt_imagem_capturar">Image</string>
+    <string name="lab04_toast_imagem_cancelada">Image Canceled</string>
+    <string name="lab04_bt_video_capturar">Video</string>
+    <string name="lab04_toast_video_cancelada">Video Canceled</string>
+
+    <string name="lab05_et_cpf" translatable="false">CPF</string>
+    <string name="lab05_bt_validar">Validate</string>
+
     <string name="app_name">Example</string>
     <string name="cpf_nulo">Null CPF!</string>
     <string name="cpf_vazio">Empty CPF!</string>
     <string name="cpf_11">CPF doesn\'t contain 11 digits</string>
     <string name="cpf_invalido">Invalid CPF!</string>
     <string name="doc_valido">Valid Document!</string>
+    <string name="player_1_0">Player 1: 0</string>
+    <string name="player_2_0">Player 2: 0</string>
+    <string name="reset">reset</string>
+    <string name="player_1">Player 1:</string>
+    <string name="player_2">Player 2:</string>
+    <string name="player_1_vence">Player 1 wins!</string>
+    <string name="player_2_vence">Player 2 wins!</string>
+    <string name="draw">Draw!</string>
+
+
 </resources>
