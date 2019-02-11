@@ -57,10 +57,20 @@
     <string name="doc_valido">Documento válido!</string>
     <string name="player_1_0">Jogador 1: 0</string>
     <string name="player_2_0">Jogador 2: 0</string>
-    <string name="reset">resetar</string>
+    <string name="reset">RESETAR</string>
     <string name="player_1">Jogador 1:</string>
     <string name="player_2">Jogador 2:</string>
     <string name="player_1_vence">Jogador 1 vence!</string>
     <string name="player_2_vence">Jogador 2 vence!</string>
     <string name="draw">Empate!</string>
+
+
+    <string name="lab07_tv_endereco">Endereço</string>
+    <string name="lab07_tv_coordenadas">Localização</string>
+    <string name="lab07_tv_latitude">Latitude</string>
+    <string name="lab07_tv_longitude">Longitude</string>
+    <string name="lab07_tv_semEndereco">Endereço não encontrado</string>
+    <string name="lab07_tv_semProvedor">Provedor não encontrado</string>
+    <string name="lab07_location_maps">Veja sua localização</string>
+    <string name="lab07_installgoogle">É necessário instalar Google Maps</string>
 </resources>

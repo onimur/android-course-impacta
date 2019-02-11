@@ -12,6 +12,7 @@
 
 package com.example.admin.examples.lab01.app.controller;
 
+import android.Manifest;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 
@@ -21,7 +22,8 @@ import com.example.admin.examples.lab02.app.controller.MegaSenaActivity;
 import com.example.admin.examples.lab03.app.controller.GorjetaActivity;
 import com.example.admin.examples.lab04.app.controller.IntentActivity;
 import com.example.admin.examples.lab05.app.controller.CPFActivity;
-import com.example.admin.examples.lab06.app.controller.JogoVelhaActivity;
+import com.example.admin.examples.lab06.JogoVelhaActivity;
+import com.example.admin.examples.lab07.app.controller.GPSActivity;
 
 public class MainActivity extends MainUtilitiesActivity {
 
@@ -51,6 +53,7 @@ public class MainActivity extends MainUtilitiesActivity {
         setOnClickActivityAction(R.id.lab01_bt_game01, JogoVelhaActivity.class);
 
         setToastOnClickAction(R.id.lab01_bt_gps);
+        setOnClickActivityAction(R.id.lab01_bt_gps, GPSActivity.class);
         setToastOnClickAction(R.id.lab01_bt_sqlite);
         setToastOnClickAction(R.id.lab01_bt_game02);
         setToastOnClickAction(R.id.lab01_bt_service);
@@ -66,7 +69,11 @@ public class MainActivity extends MainUtilitiesActivity {
         // e retornado no onRequestPermissionsResult da Activity ()
         String[] PERMISSIONS = {
                 android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                android.Manifest.permission.CAMERA
+                android.Manifest.permission.CAMERA,
+                android.Manifest.permission.RECORD_AUDIO,
+
+                android.Manifest.permission.ACCESS_FINE_LOCATION,
+                android.Manifest.permission.ACCESS_COARSE_LOCATION
                 //   android.Manifest.permission.READ_CONTACTS,
                 //  android.Manifest.permission.WRITE_CONTACTS,
                 //   android.Manifest.permission.READ_SMS,

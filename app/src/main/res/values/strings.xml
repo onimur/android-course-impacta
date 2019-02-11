@@ -70,12 +70,23 @@
     <string name="doc_valido">Valid Document!</string>
     <string name="player_1_0">Player 1: 0</string>
     <string name="player_2_0">Player 2: 0</string>
-    <string name="reset">reset</string>
+    <string name="reset">RESET</string>
     <string name="player_1">Player 1:</string>
     <string name="player_2">Player 2:</string>
     <string name="player_1_vence">Player 1 wins!</string>
     <string name="player_2_vence">Player 2 wins!</string>
     <string name="draw">Draw!</string>
+
+    <string name="lab07_tv_endereco">Address</string>
+    <string name="lab07_tv_coordenadas">Localization</string>
+    <string name="lab07_toast_ok" translatable="false">%s :D</string>
+    <string name="lab07_toast_nok" translatable="false">%s :(</string>
+    <string name="lab07_tv_latitude">Latitude</string>
+    <string name="lab07_tv_longitude">Longitude</string>
+    <string name="lab07_tv_semEndereco">Address not found</string>
+    <string name="lab07_tv_semProvedor">Provider not found</string>
+    <string name="lab07_location_maps">See your location</string>
+    <string name="lab07_installgoogle">You need to install Google Maps</string>
 
 
 </resources>

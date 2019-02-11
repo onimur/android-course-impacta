@@ -64,7 +64,7 @@
 
             <Button
                 android:id="@+id/lab01_bt_gps"
-                style="@style/AppTheme.Lab01.Button.Blue"
+                style="@style/AppTheme.Lab01.Button.Green"
                 android:text="@string/lab01_bt_gps" />
 
             <Button
