@@ -31,38 +31,38 @@ gradlew installDebug
 ## Details
 
 This project is based on the exercises proposed by the Android Developer course by Impacta <br />
-![](images/main.png)
+![](resources/main.png)
 
 
 ## It features: <br />
 ###  &#9745; Mega Sena (Brazilian)
 Create up to 100 games with 6 random numbers. <br />
-![](images/mega-sena1.png)
-![](images/mega-sena2.png)
+![](resources/mega-sena1.png)
+![](resources/mega-sena2.png)
 ###  &#9745; Gratuity 
 Calculates the percentage of the amount paid. Used for tip payment.<br />
-![](images/gorjeta1.png)
-![](images/gorjeta2.png)
+![](resources/gorjeta1.png)
+![](resources/gorjeta2.png)
 ###  &#9745; Camera 
 Generated photos and videos are shown in a FrameLayout, in addition to being added to the gallery.<br />
-![](images/camera1.png)
-![](images/camera2.png)
-![](images/camera3.png)
+![](resources/camera1.png)
+![](resources/camera2.png)
+![](resources/camera3.png)
 ###  &#9745; CPF Validator (Registration of Individuals - Brazilian)
 Validation calculation to verify the desired CPF.<br />
-![](images/validador1.png)
-![](images/validador2.png)
+![](resources/validador1.png)
+![](resources/validador2.png)
 ###  &#9744; Search Zipcode 
 ###  &#9745; Tic-tac-toe
 Simple tic-tac-toe <br />
-![](images/jogavelha1.png)
-![](images/jogovelha2.png)
-![](images/jogovelha3.png)
+![](resources/jogavelha1.png)
+![](resources/jogovelha2.png)
+![](resources/jogovelha3.png)
 ###  &#9745; Locate me
 Capture latitude and longitude by entering the address and the option to view it in Google Maps <br />
-![](images/localize1.png)
-![](images/localize2.png)
-![](images/localize3.png)
+![](resources/localize1.png)
+![](resources/localize2.png)
+![](resources/localize3.png)
 ###  &#9744; Notes
 ###  &#9744; Ball Game
 ###  &#9744; Music player
