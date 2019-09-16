@@ -12,6 +12,7 @@
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
@@ -20,7 +21,8 @@
     <LinearLayout
         android:layout_width="@dimen/lab01_largura_logo"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
 
         <ImageView
             style="@style/AppTheme.Lab01.Title.Vertical.Image"
@@ -79,7 +81,7 @@
 
             <Button
                 android:id="@+id/lab01_bt_sqlite"
-                style="@style/AppTheme.Lab01.Button.Blue"
+                style="@style/AppTheme.Lab01.Button.Green"
                 android:text="@string/lab01_bt_sqlite" />
             <Button
                 android:id="@+id/lab01_bt_game02"

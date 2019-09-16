@@ -1,7 +1,32 @@
-#### English
-# Project Description
+# Course Impacta (Pt-BR)
 
 Project with several examples of simple methods
+## Getting Started
+#### Using Git Bash
+```
+git clone git@github.com:MurilloComino/android-course-impacta.git
+```
+
+#### Using Android Studio
+```
+in File > New > Project from Version Control... > git
+
+in URL put: https://github.com/MurilloComino/android-course-impacta.git
+
+and then clone
+```
+## Installing
+* Connect via usb your android phone.
+* After cloning the project, open the terminal and navigate to the root folder.
+
+#### Windows
+````
+gradlew installDebug
+````
+#### Linux & MacOS
+````
+./gradlew installDebug
+````
 
 ## Details
 
@@ -9,7 +34,7 @@ This project is based on the exercises proposed by the Android Developer course 
 ![](images/main.png)
 
 
-It features: <br />
+## It features: <br />
 ###  &#9745; Mega Sena (Brazilian)
 Create up to 100 games with 6 random numbers. <br />
 ![](images/mega-sena1.png)
@@ -47,34 +72,6 @@ Capture latitude and longitude by entering the address and the option to view it
 ###  &#9744; Cannon Game
 ###  &#9744; Settings
 
-#### Portuguese
-# Descrição do Projeto
+## Built With
 
-Projeto com vários exemplos de métodos simples <br />
-
-## Detalhes
-
-Esse projeto é baseado nos exercícios proposto pelo curso de Android Developer pela Impacta. <br />
-
-Nele apresenta: <br />
-###  &#9745; Mega Sena 
-Sorteia até 100 jogos com 6 números aleatórios. <br />
-###  &#9745; Gorjetas 
-Cálcula a porcentagem do valor pago. Utilizado para pagamento de gorjeta. <br />
-###  &#9745; Câmera
-Fotos e vídeos gerados são mostrados em um FrameLayout, além de serem adicionados na galeria. <br />
-###  &#9745; Validador CPF 
-Cálculo de validação para verificar o CPF desejado <br />
-###  &#9744; Procure CEP 
-###  &#9745; Jogo da Velha
-Simples jogo da velha <br />
-###  &#9745; Me localize
-Captura a latitude e longitude, informando o endereço e com a opção de visualizar no Google Maps <br />
-###  &#9744; Notas 
-###  &#9744; Jogo com Bola
-###  &#9744; Music Player
-###  &#9744; Chat Blue
-###  &#9744; Mensagens SMS 
-###  &#9744; Câmera 
-###  &#9744; Jogo do Canhão 
-###  &#9744; Configurações 
+* [Android Studio 3.5](https://developer.android.com/studio) - The IDE used

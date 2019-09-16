@@ -73,4 +73,27 @@
     <string name="lab07_tv_semProvedor">Provedor não encontrado</string>
     <string name="lab07_location_maps">Veja sua localização</string>
     <string name="lab07_installgoogle">É necessário instalar Google Maps</string>
+
+    <string name="lab08_notas">Notas</string>
+    <string name="lab08_acoes">Listar por…</string>
+    <string name="lab08_nota_titulo">Nota</string>
+    <string name="lab08_nota_observacao">Observações desta Nota</string>
+    <string name="lab08_nota_nova">Nota Nova</string>
+    <string name="lab08_nota_fazer">Notas a Fazer</string>
+    <string name="lab08_nota_hoje">Temos %s notas para hoje</string>
+    <string name="lab08_nota_feita">Feitas</string>
+    <string name="lab08_nota_agenda_data">Agendar data…</string>
+    <string name="lab08_nota_agenda_hora">Agendar hora…</string>
+    <string name="lab08_nota_perdida">Perdidas</string>
+    <string name="lab08_notas_nao_feitas">Notas não atualizadas</string>
+    <string name="lab08_nota_agenda_em">Agendada para: %s</string>
+    <string name="lab08_nota_feita_em">Feito em: %s</string>
+    <string name="lab08_nota_agendar">Agendar?</string>
+    <string name="lab08_nota_apagar">Apagar Nota(s)</string>
+    <string name="lab08_nota_detalhe">Detalhes da Nota</string>
+    <string name="lab08_nota_atualizar">Atualizar Nota</string>
+    <string name="lab08_nota_apagada">Apagada(s)</string>
+    <string name="lab08_confirma">Confirma?</string>
+    <string name="lab08_nota_selecione">Selecione para apagar!!</string>
+    <string name="lab08_nota_cancelar">Cancelar Nota</string>
 </resources>

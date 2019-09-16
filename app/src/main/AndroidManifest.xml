@@ -12,14 +12,16 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.admin.examples">
+    package="com.onimus.courseimpacta">
 
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+        tools:ignore="ProtectedPermissions" />
     <uses-feature
         android:name="android.hardware.camera.any"
         android:required="true" />
@@ -68,9 +70,32 @@
         <activity android:name=".lab05.app.controller.CPFActivity" />
         <activity android:name=".lab06.JogoVelhaActivity" />
         <activity android:name=".lab07.app.controller.GPSActivity" />
+        <activity
+            android:name=".lab08.app.controller.NotaDrawerActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="" />
+        <activity
+            android:name=".lab08.app.controller.NotaActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".lab08.io.NotaHojeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".lab08.io.NotaHojeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true">

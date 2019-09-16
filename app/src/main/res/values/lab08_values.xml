@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lab08_itens">
+        <item>Notes to be made</item>
+        <item>Notes made</item>
+        <item>Lost Notes</item>
+    </array>
+</resources>

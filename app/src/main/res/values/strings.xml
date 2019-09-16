@@ -88,5 +88,28 @@
     <string name="lab07_location_maps">See your location</string>
     <string name="lab07_installgoogle">You need to install Google Maps</string>
 
+    <string name="lab08_notas">Notes</string>
+    <string name="lab08_acoes">List by…</string>
+    <string name="lab08_nota_titulo">Note</string>
+    <string name="lab08_nota_observacao">Observations of this Note</string>
+    <string name="lab08_nota_nova">New Note</string>
+    <string name="lab08_nota_fazer">Notes to be made</string>
+    <string name="lab08_nota_hoje">We have %s notes for today</string>
+    <string name="lab08_nota_feita">Made</string>
+    <string name="lab08_nota_agenda_data">Schedule date…</string>
+    <string name="lab08_nota_agenda_hora">Schedule hour…</string>
+    <string name="lab08_nota_perdida">Lost</string>
+    <string name="lab08_notas_nao_feitas">Notes not updated</string>
+    <string name="lab08_nota_agenda_em">Scheduled for: %s</string>
+    <string name="lab08_nota_feita_em">Made in: %s</string>
+    <string name="lab08_nota_agendar">Schedule?</string>
+    <string name="lab08_nota_apagar">Erase note(s)</string>
+    <string name="lab08_nota_detalhe">Note details</string>
+    <string name="lab08_nota_atualizar">Update note</string>
+    <string name="lab08_nota_apagada">Deleted</string>
+    <string name="lab08_confirma">Confirm?</string>
+    <string name="lab08_nota_selecione">Select to delete!!</string>
+    <string name="lab08_nota_cancelar">Cancel Note</string>
+
 
 </resources>

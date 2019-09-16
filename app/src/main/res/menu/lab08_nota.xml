@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lab08_nota_feita"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/lab08_nota_feita"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/lab08_nota_nova"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/lab08_nota_nova" />
+    <item
+        android:id="@+id/lab08_nota_apagar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/lab08_nota_apagar" />
+</menu>

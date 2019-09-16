@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ /*
   ~  * Created by Murillo Comino on 09/02/19 15:39
   ~  * Github: github.com/MurilloComino
@@ -12,7 +11,6 @@
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -20,8 +18,7 @@
 
     <TextView
         style="@style/AppTheme.Lab01.Title"
-        android:text="@string/lab01_tv_laboratorios"
-        />
+        android:text="@string/lab01_tv_laboratorios" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -69,8 +66,9 @@
 
             <Button
                 android:id="@+id/lab01_bt_sqlite"
-                style="@style/AppTheme.Lab01.Button.Blue"
+                style="@style/AppTheme.Lab01.Button.Green"
                 android:text="@string/lab01_bt_sqlite" />
+
             <Button
                 android:id="@+id/lab01_bt_game02"
                 style="@style/AppTheme.Lab01.Button.Blue"
@@ -85,18 +83,22 @@
                 android:id="@+id/lab01_bt_bluetooth"
                 style="@style/AppTheme.Lab01.Button.Blue"
                 android:text="@string/lab01_bt_bluetooth" />
+
             <Button
                 android:id="@+id/lab01_bt_sms"
                 style="@style/AppTheme.Lab01.Button.Blue"
                 android:text="@string/lab01_bt_sms" />
+
             <Button
                 android:id="@+id/lab01_bt_camera"
                 style="@style/AppTheme.Lab01.Button.Blue"
                 android:text="@string/lab01_bt_camera" />
+
             <Button
                 android:id="@+id/lab01_bt_game03"
                 style="@style/AppTheme.Lab01.Button.Blue"
                 android:text="@string/lab01_bt_game03" />
+
             <Button
                 android:id="@+id/lab01_bt_share_preferences"
                 style="@style/AppTheme.Lab01.Button.Blue"
