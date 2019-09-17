@@ -13,8 +13,6 @@
 
 <resources>
 
-    <string name="app_name">Exemplos</string>
-    <string name="titleApp">Exemplos</string>
     <string name="lab01_toast_clicado">%s clicado</string>
     <string name="lab01_tv_labs">L\na\nb\ns</string>
     <string name="lab01_tv_laboratorios">Laboratórios</string>

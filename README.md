@@ -31,46 +31,49 @@ gradlew installDebug
 ## Details
 
 This project is based on the exercises proposed by the Android Developer course by Impacta <br />
-![](resources/main.png)
 
 
 ## It features: <br />
-###  &#9745; Mega Sena (Brazilian)
-Create up to 100 games with 6 random numbers. <br />
-![](resources/mega-sena1.png)
-![](resources/mega-sena2.png)
-###  &#9745; Gratuity 
-Calculates the percentage of the amount paid. Used for tip payment.<br />
-![](resources/gorjeta1.png)
-![](resources/gorjeta2.png)
-###  &#9745; Camera 
-Generated photos and videos are shown in a FrameLayout, in addition to being added to the gallery.<br />
-![](resources/camera1.png)
-![](resources/camera2.png)
-![](resources/camera3.png)
-###  &#9745; CPF Validator (Registration of Individuals - Brazilian)
-Validation calculation to verify the desired CPF.<br />
-![](resources/validador1.png)
-![](resources/validador2.png)
-###  &#9744; Search Zipcode 
-###  &#9745; Tic-tac-toe
-Simple tic-tac-toe <br />
-![](resources/jogavelha1.png)
-![](resources/jogovelha2.png)
-![](resources/jogovelha3.png)
-###  &#9745; Locate me
-Capture latitude and longitude by entering the address and the option to view it in Google Maps <br />
-![](resources/localize1.png)
-![](resources/localize2.png)
-![](resources/localize3.png)
-###  &#9744; Notes
-###  &#9744; Ball Game
-###  &#9744; Music player
-###  &#9744; Chat Blue
-###  &#9744; SMS Messages 
-###  &#9744; Camera
-###  &#9744; Cannon Game
-###  &#9744; Settings
+
+![](resources/1.gif)
+#####  &#9745; Mega Sena (Brazilian)
+* Create up to 100 games with 6 random numbers. <br />
+
+![](resources/2.gif)
+#####  &#9745; Gratuity 
+* Calculates the percentage of the amount paid. Used for tip payment.<br />
+
+![](resources/3.gif)
+#####  &#9745; Camera 
+* Generated photos and videos are shown in a FrameLayout, in addition to being added to the gallery.<br />
+
+![](resources/4.gif)
+#####  &#9745; CPF Validator (Registration of Individuals - Brazilian)
+* Validation calculation to verify the desired CPF.<br />
+
+![](resources/5.gif)
+#####  &#9744; Search Zipcode 
+#####  &#9745; Tic-tac-toe
+* Simple tic-tac-toe <br />
+
+![](resources/6.gif)
+#####  &#9745; Locate me
+* Capture latitude and longitude by entering the address and the option to view it in Google Maps <br />
+
+![](resources/7.gif)
+#####  &#9745; Notes
+
+![](resources/8.gif)
+#####  &#9744; Ball Game
+#####  &#9744; Music player
+#####  &#9744; Chat Blue
+#####  &#9744; SMS Messages 
+#####  &#9744; Camera
+#####  &#9744; Cannon Game
+#####  &#9744; Settings
+
+## Example
+
 
 ## Built With
 

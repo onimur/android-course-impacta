@@ -11,7 +11,7 @@
   -->
 
 <resources>
-    <string name="titleApp">Examples</string>
+    <string name="titleApp" translatable="false">CourseImpacta</string>
     <string name="lab01_toast_clicado">%s clicked</string>
     <string name="lab01_tv_labs">L\na\nb\ns</string>
     <string name="lab01_tv_laboratorios">Laboratories</string>
@@ -62,7 +62,7 @@
     <string name="lab05_et_cpf" translatable="false">CPF</string>
     <string name="lab05_bt_validar">Validate</string>
 
-    <string name="app_name">Example</string>
+    <string name="app_name" translatable="false">CourseImpacta</string>
     <string name="cpf_nulo">Null CPF!</string>
     <string name="cpf_vazio">Empty CPF!</string>
     <string name="cpf_11">CPF doesn\'t contain 11 digits</string>
